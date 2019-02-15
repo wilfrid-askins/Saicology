@@ -78,7 +78,7 @@
             android:layout_height="110dp"
             android:id="@+id/bookButton" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="740dp" android:textSize="40sp" android:layout_marginEnd="400dp"
+            android:layout_marginTop="724dp" android:textSize="40sp" android:layout_marginEnd="400dp"
             android:layout_marginRight="400dp" tools:text="Book Now"/>
     <TextView
             android:text="Status"

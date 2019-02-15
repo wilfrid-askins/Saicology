@@ -12,6 +12,13 @@ class ThanksActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_thanks)
+
+        button = findViewById(R.id.endButton)
+
+        button?.setOnClickListener {
+
+        }
+
     }
 
 }

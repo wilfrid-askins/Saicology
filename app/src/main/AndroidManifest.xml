@@ -50,6 +50,16 @@
                     android:value="com.wilfaskins.dashboard.SchedleActivity"/>
         </activity>
 
+        <activity
+                android:name=".ThanksActivity"
+                android:label="Thanks"
+                android:parentActivityName=".ThanksActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.wilfaskins.dashboard.CalendarActivity"/>
+        </activity>
+
     </application>
 
 </manifest>

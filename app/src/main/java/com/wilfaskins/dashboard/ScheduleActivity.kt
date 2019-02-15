@@ -13,7 +13,7 @@ class ScheduleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_schedule)
 
-        button = findViewById(R.id.bookButton)
+        button = findViewById(R.id.nextButton)
 
         button?.setOnClickListener{
             val intent = Intent(this, CalendarActivity::class.java)

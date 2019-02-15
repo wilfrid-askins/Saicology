@@ -7,7 +7,7 @@
                                              android:layout_marginLeft="16dp"
                                              android:layout_marginRight="16dp"
                                              android:orientation="horizontal"
-                                             tools:context=".ItemListActivity" android:id="@+id/layout">
+                                             tools:context="ItemListActivity" android:id="@+id/layout">
     <TextView
             android:text="Next Service: 144 days"
             android:layout_width="444dp"
@@ -17,7 +17,7 @@
             android:layout_marginLeft="532dp" android:layout_marginStart="532dp" android:textSize="40sp"
             android:layout_marginTop="348dp" app:layout_constraintTop_toTopOf="parent"/>
     <TextView
-            android:text="abc"
+            android:text="Oil Level: Full"
             android:layout_width="444dp"
             android:layout_height="50dp"
             android:id="@+id/textView10"
@@ -47,7 +47,7 @@
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="532dp" android:layout_marginStart="532dp" android:textSize="40sp"
             android:layout_marginTop="196dp" app:layout_constraintTop_toTopOf="parent"
-            tools:text="Transmission: Healthy"/>
+            tools:text="Transmission: Healthy" android:text="Transmission: Healthy"/>
     <TextView
             android:text="Fluids: Low ⚠ "
             android:layout_width="283dp"

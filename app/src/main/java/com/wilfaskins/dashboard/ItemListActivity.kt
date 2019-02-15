@@ -30,7 +30,7 @@ class ItemListActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.item_list)
 
         button = findViewById(R.id.bookButton)
 

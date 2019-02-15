@@ -7,7 +7,7 @@
                                              android:layout_marginLeft="16dp"
                                              android:layout_marginRight="16dp"
                                              android:orientation="horizontal"
-                                             tools:context="ItemListActivity" android:id="@+id/layout">
+                                             tools:context=".ItemListActivity" android:id="@+id/layout">
     <TextView
             android:text="Next Service: 144 days"
             android:layout_width="444dp"

@@ -29,6 +29,27 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.wilfaskins.dashboard.ItemListActivity"/>
         </activity>
+
+        <activity
+                android:name=".ScheduleActivity"
+                android:label="Schedule"
+                android:parentActivityName=".ScheduleActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.wilfaskins.dashboard.ItemListActivity"/>
+        </activity>
+
+        <activity
+                android:name=".CalendarActivity"
+                android:label="Calendar"
+                android:parentActivityName=".CalendarActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.wilfaskins.dashboard.SchedleActivity"/>
+        </activity>
+
     </application>
 
 </manifest>

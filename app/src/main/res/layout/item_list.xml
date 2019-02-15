@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:layout_marginLeft="16dp"
+                                             android:layout_marginRight="16dp"
+                                             android:orientation="horizontal"
+                                             tools:context=".ItemListActivity" android:id="@+id/layout">
+    <TextView
+            android:text="Next Service: 144 days"
+            android:layout_width="444dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView11"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="532dp" android:layout_marginStart="532dp" android:textSize="40sp"
+            android:layout_marginTop="348dp" app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+            android:text="Oil Level: Full"
+            android:layout_width="444dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView10"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="532dp" android:layout_marginStart="532dp" android:textSize="40sp"
+            android:layout_marginTop="276dp" app:layout_constraintTop_toTopOf="parent" tools:text="Oil Level: Full"/>
+    <TextView
+            android:text="Brakes: Healthy"
+            android:layout_width="444dp"
+            android:layout_height="56dp"
+            android:id="@+id/textView9"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="532dp" android:layout_marginStart="532dp" android:textSize="40sp"
+            android:layout_marginTop="112dp" app:layout_constraintTop_toTopOf="parent" tools:text="Brakes: Healthy"/>
+    <TextView
+            android:text="Next MoT: 12 days ⚠"
+            android:layout_width="444dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView6"
+            android:layout_marginTop="184dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:textSize="40sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"/>
+    <TextView
+            android:layout_width="444dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView8"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="532dp" android:layout_marginStart="532dp" android:textSize="40sp"
+            android:layout_marginTop="196dp" app:layout_constraintTop_toTopOf="parent"
+            tools:text="Transmission: Healthy" android:text="Transmission: Healthy"/>
+    <TextView
+            android:text="Fluids: Low ⚠ "
+            android:layout_width="283dp"
+            android:layout_height="53dp"
+            android:id="@+id/textView5"
+            android:textSize="40sp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"/>
+    <TextView
+            android:text="Engine: Healthy"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="112dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:textSize="40sp"/>
+    <TextView
+            android:text="Tires: Worn ⚠"
+            android:layout_width="283dp"
+            android:layout_height="51dp"
+            android:id="@+id/textView4"
+            android:layout_marginTop="32dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:textSize="40sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"/>
+    <Button
+            android:text="Book"
+            android:layout_width="259dp"
+            android:layout_height="76dp"
+            android:id="@+id/bookButton" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="484dp" android:textSize="40sp" android:layout_marginEnd="364dp"
+            android:layout_marginRight="364dp" tools:text="Book Now"/>
+    <TextView
+            android:text="Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:textSize="40sp"/>
+</android.support.constraint.ConstraintLayout>

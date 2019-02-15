@@ -25,7 +25,7 @@
             android:layout_height="54dp"
             android:id="@+id/checkBox2"
             android:textSize="40sp"
-            android:text="Top up fluids" android:layout_marginTop="16dp"
+            android:text="£10 Top up fluids" android:layout_marginTop="96dp"
             app:layout_constraintTop_toBottomOf="@+id/checkBox3" android:layout_marginStart="652dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="652dp"/>
     <TextView
@@ -37,7 +37,7 @@
             app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="76dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="76dp"/>
     <CheckBox
-            android:text="Refuel my car"
+            android:text="£25 Refuel"
             android:layout_width="348dp"
             android:layout_height="0dp"
             android:id="@+id/checkBox4"
@@ -45,13 +45,14 @@
             app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="652dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="652dp"/>
     <CheckBox
-            android:text="Option3 "
+            android:text="£15 Car Wash"
             android:layout_width="345dp"
             android:layout_height="wrap_content"
             android:id="@+id/checkBox"
-            android:textSize="40sp" android:layout_marginTop="20dp"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox2" android:layout_marginStart="652dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="652dp"/>
+            android:textSize="40sp"
+            android:layout_marginStart="652dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="652dp"
+            android:layout_marginTop="240dp" app:layout_constraintTop_toTopOf="parent"/>
     <Button
             android:text="Next"
             android:layout_width="256dp"

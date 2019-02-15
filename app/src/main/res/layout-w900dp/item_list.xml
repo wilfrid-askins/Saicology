@@ -9,7 +9,7 @@
                                              android:orientation="horizontal"
                                              tools:context=".ItemListActivity" android:id="@+id/layout">
     <TextView
-            android:text="Next servicing: 144 days"
+            android:text="Next Service: 144 days"
             android:layout_width="444dp"
             android:layout_height="50dp"
             android:id="@+id/textView11"

@@ -17,7 +17,7 @@
             android:layout_height="0dp"
             android:id="@+id/checkBox5"
             android:textSize="40sp"
-            android:layout_marginTop="68dp"
+            android:layout_marginTop="76dp"
             app:layout_constraintTop_toTopOf="@+id/checkBox3" android:layout_marginStart="76dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="76dp"/>
     <CheckBox
@@ -33,12 +33,12 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:id="@+id/checkBox3"
-            android:textSize="40sp" android:layout_marginTop="172dp"
+            android:textSize="40sp" android:layout_marginTop="164dp"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="76dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="76dp"/>
     <CheckBox
             android:text="Refuel my car"
-            android:layout_width="wrap_content"
+            android:layout_width="348dp"
             android:layout_height="0dp"
             android:id="@+id/checkBox4"
             android:textSize="40sp" android:layout_marginTop="164dp"
@@ -46,7 +46,7 @@
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="652dp"/>
     <CheckBox
             android:text="Option3 "
-            android:layout_width="wrap_content"
+            android:layout_width="345dp"
             android:layout_height="wrap_content"
             android:id="@+id/checkBox"
             android:textSize="40sp" android:layout_marginTop="20dp"
